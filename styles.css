@@ -455,3 +455,53 @@ body{
     margin-bottom : 80px ;
 }
 
+@media (max-width: 980px) {
+    .hero-title{
+        font-weight: 80px;
+        margin-bottom: 3rem;
+        font-size: 40px;
+    }
+    .image-grid{
+        height: 100vh;
+    }
+}
+@media (max-width: 720px) {
+    .hero-title{
+        font-weight: 80px;
+        margin-bottom: 3rem;
+        font-size: 35px;
+    }
+    .image-grid{
+        height: 100vh;
+    }
+}
+@media (max-width: 600px) {
+    .hero-container{
+        top: 23%;
+    }
+    .hero-title{
+        font-weight: 80px;
+        margin-bottom: 3rem;
+        font-size: 30px;
+    }
+    .image-grid{
+        height: 100vh;
+    }
+}
+@media (max-width: 370px) {
+    .hero-title{
+        font-weight: 80px;
+        margin-bottom: 4rem;
+        font-size: 23px;
+    }
+    .image-grid{
+        height: 100vh;
+    }
+    .button{
+        width : 220px ;
+        height : 60px ;
+    }
+    .button__text{
+        font-size: 23px;
+    }
+}
