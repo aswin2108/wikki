@@ -57,6 +57,7 @@
 .pichai-content {
     background-image: url('../../assets/background.jpg');
     background-size: cover;
+    margin-bottom: -20px;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px; 
