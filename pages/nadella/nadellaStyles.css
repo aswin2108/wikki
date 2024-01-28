@@ -1,12 +1,11 @@
-
-.apj-kinney{
+.nadella-kinney{
     width: 100%;
     top: 0%;
     left: 0%;
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.apj-hero-content{
+.nadella-hero-content{
     display: flex;
     height: 30vh;
     margin-bottom: 3%;
@@ -14,42 +13,48 @@
     align-items: flex-end;
     
 }
-.apj-hero-label{
+.nadella-quote{
+    font-family: 'Lato', sans-serif;
+    color: antiquewhite;
+    font-size: 40px;
+    animation: floatAnimation 5s ease-in-out infinite;
+}
+.nadella-hero-label{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.apj-hero-section{
-    background: url('./subtle-prism.svg') no-repeat center center fixed;
+.nadella-hero-section{
+    background: url('./sun-tornado.svg') no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.apj-hero-pic{
-    width: 10%;
-    border-radius: 50%;
+.nadella-hero-pic{
+    width: 15%;
+    border-radius: 40%;
 }
-.apj-hero-name{
-    font-size: 80px;
+.nadella-hero-name{
+    font-size: 40px;
+    padding-left: 5px;
     font-weight: 30px;
+    color: antiquewhite;
 }
 
-.apj-books{
+.nadella-books{
     width: 13%;
 }
-.apj-books-img{
+.nadella-books-img{
     border-radius: 20px;
 }
-.apj-books img{
+.nadella-books img{
     width: 100%;
 }
 
-
-
-.apj-content {
+.nadella-content {
     background-image: url('../../assets/background.jpg');
     background-size: cover;
     background-position: center;
@@ -57,88 +62,70 @@
     padding: 20px; 
 }
 
-
-.apj-para-1{
+.nadella-para-1{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    padding-top: 5%;
 }
-.apj-para-1-content{
+.nadella-para-1-content{
     width: 40%;
 }
-.apj-para-1-content-h{
+.nadella-para-1-content-h{
     font-size: 25px;
 }
-.apj-para-1-content-p{
+.nadella-para-1-content-p{
     font-size: 20px;
 }
-.apj-para-1-content-img{
-    
+.nadella-para-1-content-img{
     height: fit-content;
     width: 30%;
     border-radius: 20px;
 }
 
 
-.apj-para-2{
+.nadella-para-2{
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
 }
-.apj-para-2-content{
+.nadella-para-2-content{
     width: 40%;
 }
-.apj-para-2-content-h{
+.nadella-para-2-content-h{
     font-size: 25px;
 }
-.apj-para-2-content-p{
+.nadella-para-2-content-p{
     font-size: 20px;
 }
-.apj-para-2-content-img{
-    transform: scaleX(-1);
+.nadella-para-2-content-img{
     height: fit-content;
     width: 30%;
     border-radius: 20px;
 }
-.apj-para-3{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-.apj-para-3-content{
-    width: 40%;
-}
-.apj-para-3-content-h{
-    font-size: 25px;
-}
-.apj-para-3-content-p{
-    font-size: 20px;
-}
-.apj-para-3-content-img{
-    width: 30%;
-    height: fit-content;
-    border-radius: 20px;
-}
-.apj-para-4{
+.nadella-para-3{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 }
-.apj-para-4-content{
-    width: 80%;
+.nadella-para-3-content{
+    width: 60%;
 }
-.apj-para-4-content-h{
+.nadella-para-3-content-h{
     font-size: 25px;
 }
-.apj-para-4-content-p{
+.nadella-para-3-content-p{
     font-size: 20px;
 }
-.apj-para-4-content-img{
-    width: 30%;
+.nadella-para-3-content-img{
+    width: 15%;
     height: fit-content;
-    animation: floatAnimation 3s ease-in-out infinite;
+    margin-top: 5px;
+    border-radius: 20px;
+    animation: pulse 2s ease-in-out infinite;
 }
+
+
 @keyframes floatAnimation {
     0%,
     100% {
@@ -149,117 +136,139 @@
     }
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 @media (max-width: 950px) {
-    .apj-hero-label{
+    .nadella-hero-label{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .apj-hero-name{
+    .nadella-hero-name{
         font-size: 40px;
 
     }
-    .apj-para-1{
+    .nadella-para-1{
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .apj-para-2{
+    .nadella-para-2{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .nadella-para-3{
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .apj-para-3{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    .apj-para-1-content{
+    .nadella-para-1-content{
         width: 70%;
     }
-    .apj-para-2-content{
+    .nadella-para-2-content{
+        width: 70%;
+        
+    }
+    .nadella-para-2-content-img{
+        width: 70%;
+        padding-top: 10px;
+    }
+    .nadella-para-3-content{
         width: 70%;
     }
-    .apj-para-3-content{
-        width: 70%;
-    }
-    .apj-para-3-content-img{
+    .nadella-para-3-content-img{
         margin-top: 15px;
     }
-    .apj-para-1-content-img{
+    .nadella-para-1-content-img{
+        width: 70%;
         margin-top: 20px;
     }
 }
 
 
 @media (max-width: 600px) {
-    .apj-hero-pic{
+    .nadella-hero-pic{
         width: 20%;
     }
-    .apj-hero-content{
+    .nadella-quote{
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+    }
+    .nadella-hero-content{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .apj-hero-name{
-        font-size: 25px;
+    .nadella-hero-name{
+        font-size: 20px;
     }
-    .apj-books{
-        width: 25%;
-    }
-    .apj-para-1-content-img{
+    .nadella-para-1-content-img{
         width: 65%;
     }
-    .apj-para-2-content-img{
-        width: 65%;
+    .nadella-para-2-content-img{
+        width: 70%;
     }
-    .apj-para-3-content-img{
-        width: 65%;
+    .nadella-para-3-content-img{
+        width: 50%;
     }
-    .apj-para-4-content-img{
-        width: 85%;
+    .nadella-para-4-content-img{
+        width: 50%;
     }
-    .apj-para-3-content-h{
+    .nadella-para-3-content-h{
         font-size: 20px;
     }
-    .apj-para-3-content-p{
+    .nadella-para-3-content-p{
         font-size: 15px;
         padding-top: 5px;
     }
-    .apj-para-3-content{
+    .nadella-para-3-content{
         width: 90%;
     }
-    .apj-para-2-content-h{
+    .nadella-para-2-content-h{
         font-size: 20px;
     }
-    .apj-para-2-content-p{
+    .nadella-para-2-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-2-content{
+    .nadella-para-2-content{
         width: 90%;
     }
-    .apj-para-1-content-h{
+    .nadella-para-1-content-h{
         font-size: 20px;
     }
-    .apj-para-1-content-p{
+    .nadella-para-1-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-1-content{
+    .nadella-para-1-content{
         width: 90%;
     }
-    .apj-para-4-content-h{
+    .nadella-para-4-content-h{
         font-size: 20px;
     }
-    .apj-para-4-content-p{
+    .nadella-para-4-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-4-content{
+    .nadella-para-4-content{
         width: 90%;
     }
 }

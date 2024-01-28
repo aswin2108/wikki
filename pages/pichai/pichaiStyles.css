@@ -1,12 +1,11 @@
-
-.apj-kinney{
+.pichai-kinney{
     width: 100%;
     top: 0%;
     left: 0%;
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
-.apj-hero-content{
+.pichai-hero-content{
     display: flex;
     height: 30vh;
     margin-bottom: 3%;
@@ -14,42 +13,48 @@
     align-items: flex-end;
     
 }
-.apj-hero-label{
+.pichai-quote{
+    font-family: 'Noto Sans', sans-serif;
+    color: antiquewhite;
+    font-size: 40px;
+    animation: floatAnimation 5s ease-in-out infinite;
+}
+.pichai-hero-label{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.apj-hero-section{
-    background: url('./subtle-prism.svg') no-repeat center center fixed;
+.pichai-hero-section{
+    background: url('./rainbow-vortex.svg') no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.apj-hero-pic{
-    width: 10%;
-    border-radius: 50%;
+.pichai-hero-pic{
+    width: 15%;
+    border-radius: 40%;
 }
-.apj-hero-name{
-    font-size: 80px;
+.pichai-hero-name{
+    font-size: 60px;
+    padding-left: 5px;
     font-weight: 30px;
+    color: antiquewhite;
 }
 
-.apj-books{
+.pichai-books{
     width: 13%;
 }
-.apj-books-img{
+.pichai-books-img{
     border-radius: 20px;
 }
-.apj-books img{
+.pichai-books img{
     width: 100%;
 }
 
-
-
-.apj-content {
+.pichai-content {
     background-image: url('../../assets/background.jpg');
     background-size: cover;
     background-position: center;
@@ -57,88 +62,69 @@
     padding: 20px; 
 }
 
-
-.apj-para-1{
+.pichai-para-1{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    padding-top: 5%;
 }
-.apj-para-1-content{
+.pichai-para-1-content{
     width: 40%;
 }
-.apj-para-1-content-h{
+.pichai-para-1-content-h{
     font-size: 25px;
 }
-.apj-para-1-content-p{
+.pichai-para-1-content-p{
     font-size: 20px;
 }
-.apj-para-1-content-img{
-    
+.pichai-para-1-content-img{
     height: fit-content;
     width: 30%;
     border-radius: 20px;
 }
 
 
-.apj-para-2{
+.pichai-para-2{
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
 }
-.apj-para-2-content{
+.pichai-para-2-content{
     width: 40%;
 }
-.apj-para-2-content-h{
+.pichai-para-2-content-h{
     font-size: 25px;
 }
-.apj-para-2-content-p{
+.pichai-para-2-content-p{
     font-size: 20px;
 }
-.apj-para-2-content-img{
-    transform: scaleX(-1);
+.pichai-para-2-content-img{
     height: fit-content;
-    width: 30%;
+    width: 20%;
     border-radius: 20px;
 }
-.apj-para-3{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-.apj-para-3-content{
-    width: 40%;
-}
-.apj-para-3-content-h{
-    font-size: 25px;
-}
-.apj-para-3-content-p{
-    font-size: 20px;
-}
-.apj-para-3-content-img{
-    width: 30%;
-    height: fit-content;
-    border-radius: 20px;
-}
-.apj-para-4{
+.pichai-para-3{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 }
-.apj-para-4-content{
-    width: 80%;
+.pichai-para-3-content{
+    width: 60%;
 }
-.apj-para-4-content-h{
+.pichai-para-3-content-h{
     font-size: 25px;
 }
-.apj-para-4-content-p{
+.pichai-para-3-content-p{
     font-size: 20px;
 }
-.apj-para-4-content-img{
-    width: 30%;
+.pichai-para-3-content-img{
+    width: 15%;
     height: fit-content;
-    animation: floatAnimation 3s ease-in-out infinite;
+    border-radius: 20px;
+    animation: pulse 2s ease-in-out infinite;
 }
+
+
 @keyframes floatAnimation {
     0%,
     100% {
@@ -149,117 +135,139 @@
     }
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 @media (max-width: 950px) {
-    .apj-hero-label{
+    .pichai-hero-label{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .apj-hero-name{
+    .pichai-hero-name{
         font-size: 40px;
 
     }
-    .apj-para-1{
+    .pichai-para-1{
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .apj-para-2{
+    .pichai-para-2{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .pichai-para-3{
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .apj-para-3{
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    .apj-para-1-content{
+    .pichai-para-1-content{
         width: 70%;
     }
-    .apj-para-2-content{
+    .pichai-para-2-content{
+        width: 70%;
+        
+    }
+    .pichai-para-2-content-img{
+        width: 70%;
+        padding-top: 10px;
+    }
+    .pichai-para-3-content{
         width: 70%;
     }
-    .apj-para-3-content{
-        width: 70%;
-    }
-    .apj-para-3-content-img{
+    .pichai-para-3-content-img{
         margin-top: 15px;
     }
-    .apj-para-1-content-img{
+    .pichai-para-1-content-img{
         margin-top: 20px;
+        width: 70%;
     }
 }
 
 
 @media (max-width: 600px) {
-    .apj-hero-pic{
+    .pichai-hero-pic{
         width: 20%;
     }
-    .apj-hero-content{
+    .pichai-quote{
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+    }
+    .pichai-hero-content{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
     }
-    .apj-hero-name{
+    .pichai-hero-name{
         font-size: 25px;
     }
-    .apj-books{
-        width: 25%;
-    }
-    .apj-para-1-content-img{
+    .pichai-para-1-content-img{
         width: 65%;
     }
-    .apj-para-2-content-img{
-        width: 65%;
+    .pichai-para-2-content-img{
+        width: 50%;
     }
-    .apj-para-3-content-img{
-        width: 65%;
+    .pichai-para-3-content-img{
+        width: 50%;
     }
-    .apj-para-4-content-img{
-        width: 85%;
+    .pichai-para-4-content-img{
+        width: 50%;
     }
-    .apj-para-3-content-h{
+    .pichai-para-3-content-h{
         font-size: 20px;
     }
-    .apj-para-3-content-p{
+    .pichai-para-3-content-p{
         font-size: 15px;
         padding-top: 5px;
     }
-    .apj-para-3-content{
+    .pichai-para-3-content{
         width: 90%;
     }
-    .apj-para-2-content-h{
+    .pichai-para-2-content-h{
         font-size: 20px;
     }
-    .apj-para-2-content-p{
+    .pichai-para-2-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-2-content{
+    .pichai-para-2-content{
         width: 90%;
     }
-    .apj-para-1-content-h{
+    .pichai-para-1-content-h{
         font-size: 20px;
     }
-    .apj-para-1-content-p{
+    .pichai-para-1-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-1-content{
+    .pichai-para-1-content{
         width: 90%;
     }
-    .apj-para-4-content-h{
+    .pichai-para-4-content-h{
         font-size: 20px;
     }
-    .apj-para-4-content-p{
+    .pichai-para-4-content-p{
         font-size: 15px;
+        
         padding-top: 5px;
     }
-    .apj-para-4-content{
+    .pichai-para-4-content{
         width: 90%;
     }
 }

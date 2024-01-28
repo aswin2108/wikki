@@ -15,10 +15,12 @@
 }
 
 .jeff-hero-section{
-    background-color: beige;
+    background: url('./parabolic-ellipse.svg') no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    color: white;
 }
 
 .jeff-hero-pic{
