@@ -1,0 +1,180 @@
+.jeff-kinney{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.jeff-hero-content{
+    display: flex;
+    height: 30vh;
+    margin-bottom: 3%;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.jeff-hero-section{
+    background-color: beige;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jeff-hero-pic{
+    width: 20%;
+    border-radius: 50%;
+}
+.jeff-hero-name{
+    font-size: 80px;
+    font-weight: 30px;
+}
+
+.jeff-books{
+    width: 13%;
+}
+.jeff-books-img{
+    border-radius: 20px;
+}
+.jeff-books img{
+    width: 100%;
+}
+
+
+@media (max-width: 950px) {
+    .jeff-hero-name{
+        font-size: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .jeff-hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .jeff-hero-name{
+        font-size: 60px;
+    }
+    .jeff-hero-name{
+        font-size: 40px;
+    }
+    .jeff-books{
+        width: 25%;
+    }
+}
+
+
+.jeff-para-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.jeff-para-1-content{
+    width: 40%;
+}
+.jeff-para-1-content-h{
+    font-size: 25px;
+}
+.jeff-para-1-content-p{
+    font-size: 20px;
+}
+.jeff-para-1-content-img{
+    
+    height: fit-content;
+    width: 30%;
+    clip-path: polygon(51% 7%, 57% 6%, 66% 6%, 77% 4%, 87% 9%, 91% 18%, 92% 28%, 
+                       94% 39%, 94% 51%, 92% 63%, 89% 75%, 83% 83%, 78% 90%, 67% 
+                       90%, 58% 87%, 49% 82%, 39% 80%, 30% 81%, 23% 76%, 18% 67%, 
+                       12% 57%, 15% 42%, 17% 28%, 23% 19%, 33% 10%);
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+
+.jeff-para-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.jeff-para-2-content{
+    width: 40%;
+}
+.jeff-para-2-content-h{
+    font-size: 25px;
+}
+.jeff-para-2-content-p{
+    font-size: 20px;
+}
+.jeff-para-2-content-img{
+    height: fit-content;
+    width: 30%;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+.jeff-para-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.jeff-para-3-content{
+    width: 40%;
+}
+.jeff-para-3-content-h{
+    font-size: 25px;
+}
+.jeff-para-3-content-p{
+    font-size: 20px;
+}
+.jeff-para-3-content-img{
+    width: 15%;
+    height: fit-content;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+@keyframes floatAnimation {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@media (max-width: 950px) {
+    .jeff-hero-label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jeff-para-1{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .jeff-para-2{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .jeff-para-3{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .jeff-para-1-content{
+        width: 70%;
+    }
+    .jeff-para-2-content{
+        width: 70%;
+    }
+    .jeff-para-3-content{
+        width: 70%;
+    }
+    .jeff-para-3-content-img{
+        margin-top: 15px;
+    }
+    .jeff-para-1-content-img{
+        margin-top: 20px;
+    }
+}
